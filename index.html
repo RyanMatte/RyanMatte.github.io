@@ -9,6 +9,7 @@
     			background-color : #E4E4E4;
     			margin: 0;
     			padding: 0; 
+          min-height: 100%;
     		}
     		h1 {
     			text-align:  center;
@@ -25,12 +26,15 @@
     			text-align: center;
     			position: static;
     		}
-    		hr { background-color: #F9CB51; 
-    			height: 10px; 
+    		hr {
+        clear: both;
+        position: relative; 
+          
+    			height: 250px; 
     			border: 0;
     		}
     		button {
-    			background-color: #FF101F; /* Green */
+    			background-color: #FF101F; 
     			background-attachment: fixed;
   				border: none;
   				color: white;
@@ -43,10 +47,12 @@
   				cursor: pointer;
   				display: flex;
   				justify-content: center;
+          margin-right: auto;
+          margin-left: auto;
     		}
     		.div2 {
   				height: 70px;
-  				background-color: red;
+  				background-color: #FF101F;
   				display: flex;
   				justify-content: center;
   				align-items: center;
@@ -56,24 +62,21 @@
   				z-index: 1;
 
 			}
-			.fa-500px{
-				max-width: 100%;
-				height: auto;
-				font-size: 50px;
-			}
 			.images{
 				align-items: bottom;
 			}
     	</style>
     </head>
-	<title> LAB 1</title>
+	<title>Login Page</title>
     <body>
     	<div class="div2"></div>
         <h1>Welcome to Wurth It<img class="images" src="wurth-it.png" alt="Wurth-it"></h1>
-        <i class="fab fa-500px"></i>
-		
-		<button class="button">Login</button>
-		<button class="button">Register</button>
+		<form action= "file:///C:/Users/Ryan's-Laptop/Desktop/Project/RyanMatte.github.io/homepage.html">
+		  <button class="button">Login</button>
+    </form>
+    <form action= "file:///C:/Users/Ryan's-Laptop/Desktop/Project/RyanMatte.github.io/register.html">
+		  <button class="button">Register</button>
+    </form>
         <hr> 
         <p> All rights reserved to Ryan Matte and Liam Wilford</p>
     </body>
