@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>Ryan Matte Projects</title>
@@ -12,7 +12,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">Ryan Matte</a>
+    <a class="navbar-brand" href="../">Ryan Matte</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,5 +30,54 @@
         </ul>
     </div>
 </nav>
+<div class="card mb-3" id = "1" style="display: none">
+    <img src="android-dev.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Android App Development</h5>
+        <p class="card-text">The RCT2 ride price calculator accesses the database files in order to pull the variables needed to calculate the optimal price of each ride</p>
+        <p class="card-text"><small class="text-muted">The technologies used are SQLite, Android Studio, Java. The database stores are based on the code for RollerCoaster Tycoon 2</small></p>
+        <a href="https://github.com/RyanMatte/RCT2Ride_Calculator/tree/master/RCT2_ride_calculator" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+    </div>
+</div>
+<div class="card mb-3" id = "2" style="display: none">
+    <img src="Threat-dev.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">UI Design</h5>
+        <p class="card-text">Threat Analysis allows users to view current hacking threats and to add new ones to the site. It is a placeholder program focused on UI Design</p>
+        <p class="card-text"><small class="text-muted">The technologies used are Bootstrap, HTML5, CSS3, JavaScript, JQuery</small></p>
+        <a href="https://github.com/RyanMatte/attackMatrix" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+    </div>
+</div>
+<div class="card mb-3" id = "3" style="display: none">
+    <img src="web-dev.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Web Development</h5>
+        <p class="card-text">Wurth-it is a website that allows for users to post images of products they are planning on purchasing, and users can rate the image from 1/10 on whether it is worth it or not</p>
+        <p class="card-text"><small class="text-muted">The technologies used are PHP, HTML5, CSS3, postGres, JavaScript</small></p>
+        <a href="https://github.com/professor-forward/CSI3140-RyanMatte-LiamWilford/tree/deliverable3" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+    </div>
+</div>
+<div class="card mb-3" id = "4" style="display: none">
+    <img src="unity-dev.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Unity/Game Development</h5>
+        <p class="card-text">This project for SEG 3125 is a casual game that allows users to control a snowball rolling down a hill whilst it gains size the further down the z-axis it goes. The games main focus is ease of use and UI elements</p>
+        <p class="card-text"><small class="text-muted">The technologies used are C#, Unity. The sounds are accredited to DJ Gerxie</small></p>
+        <a href="https://github.com/RyanMatte/SnowBall_Game" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+    </div>
+</div>
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3">
+        <a ><strong>Website Created by </strong> Ryan Matte</a>
+    </div>
+</footer>
 </body>
+<script>
+    $(function() {
+        $("#1").fadeIn(1000);
+        $("#2").fadeIn(2000);
+        $("#3").fadeIn(4000);
+        $("#4").fadeIn(5000);
+    });
+</script>
 </html>
