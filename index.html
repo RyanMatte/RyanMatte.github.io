@@ -7,6 +7,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <title>RyanMatte</title>
+    <link rel = "icon" href="dev-icon.png"
+          type = "image/x-icon">
     <style>
         .spacing{
             margin-right: 20%;
@@ -14,14 +16,20 @@
             margin-bottom: 80%;
         }
         .backgrounds{
-            background: url("Ottawa_panorama.jpg"), linear-gradient(#eb01a5, #d13531);
+            background: url("Ottawa_panorama.jpg");
             width: 100%;
             object-fit: cover;
-            height: 300px;
+            height: 200px;
         }
         .jumbotron{
             background-size: cover;
             padding: 0 0;
+        }
+        .icons{
+            width: 80px;
+            height: auto;
+            margin-top: 50px;
+            margin-right: 30px
         }
     </style>
 </head>
@@ -37,10 +45,10 @@
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="addData.html">My Projects</a>
+                <a class="nav-link" href="projects.html">My Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="search.html">My Resume</a>
+                <a class="nav-link" href="resume.html">My Resume</a>
             </li>
         </ul>
     </div>
@@ -60,6 +68,8 @@
         <div class="card-body">
             <h1>About Me</h1>
             <p class="card-text">I am a third year Computer Science student at the University of Ottawa</p>
+            <p class="card-text">I have worked in the IT sector and have a passion for UI Design and Android App development. I have been coding for around 4 years and have worked on multiple android applications and projects</p>
+            <a href="resume.html" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 8px">More Information</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -74,11 +84,11 @@
                 <li class="list-group-item">mySQL, postGres, SQLite</li>
                 <li class="list-group-item">Active Directory, RSAT, POS and PC Deployment</li>
             </ul>
-            <a href="#" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+            <a href="projects.html" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
-        <img src="unity_game_development.png" class="card-img-top" alt="...">
+        <img src="code-image.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h1>Contact Me</h1>
             <ul class="list-group">
@@ -86,12 +96,18 @@
                 <li class="list-group-item"><strong>Email : </strong> ryanmatte55@gmail.com </li>
                 <li class="list-group-item"><strong>University Email : </strong> rmatt037@uottawa.ca </li>
             </ul>
+            <div style = "margin-left: 10%">
+                <a href="https://www.linkedin.com/in/ryan-matte-001884154/"><img src="linkedin.png"; class="icons"></a>
+                <a href="https://www.instagram.com/ryanmatte55/"><img src="instagram.png"; class="icons"></a>
+                <a href="https://github.com/RyanMatte"><img src="github.png" ; class="icons"></a>
+                <a href="https://www.facebook.com/profile.php?id=100006315993456"><img src="facebook.png" ; class="icons"></a>
+            </div>
         </div>
     </div>
 </div>
 <footer class="page-footer font-small blue">
-    <div class="footer-copyright text-center py-3"> 2020 :
-        <a > Ryan Matte</a>
+    <div class="footer-copyright text-center py-3">
+        <a ><strong>Website Created by </strong> Ryan Matte</a>
     </div>
 </footer>
 </body>
