@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="index.html">Ryan Matte</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -43,20 +43,51 @@
                 <a class="nav-link" href="search.html">My Resume</a>
             </li>
         </ul>
-    </div>
+    </div>w
 </nav>
 <div class="jumbotron jumbotron-fluid">
     <div class="backgrounds">
         <div class="backgrounds" style="height: 100%">
             <div class="container">
                 <h1 class="display-1" style="font-size: 5em; color: black; padding-top: 60px;";><small style="font-size: 60%">Welcome to </small> RyanMatte.ca</h1>
-                <p class="lead " style="color: black">I am a Computer Science Student at the University of Ottawa</p>
             </div>
         </div>
     </div>
 </div>
-<div class="card" style="width: 18rem; margin-right: 40%; margin-left: 40%">
-    <img src="ryanmatte_photo.jpg" class="card-img-top" alt="...">
+<div class="card-deck" style="margin-left: 50px; margin-right: 50px">
+    <div class="card" >
+        <img src="ryanmatte_photo.jpg" class="card-img-top" alt="..." width="50%" height="auto">
+        <div class="card-body">
+            <h1>About Me</h1>
+            <p class="card-text">I am a third year Computer Science student at the University of Ottawa</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="android_app_development.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h1>Technical Skills</h1>
+            <p class="card-text"> I am experienced in working with the following</p>
+            <ul class="list-group">
+                <li class="list-group-item">Java, C++, C#, Python, Go, Prolog</li>
+                <li class="list-group-item">Android Studio, Unity</li>
+                <li class="list-group-item">HTML5, CSS3, Bootstrap, JQuery, PHP</li>
+                <li class="list-group-item">mySQL, postGres, SQLite</li>
+                <li class="list-group-item">Active Directory, RSAT, POS and PC Deployment</li>
+            </ul>
+            <a href="#" type="submit" class="btn btn-secondary btn-lg" style="margin-top: 10px">More Information</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="unity_game_development.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
 </div>
+<footer class="page-footer font-small blue">
+    <div class="footer-copyright text-center py-3"> 2020 :
+        <a > Ryan Matte</a>
+    </div>
+</footer>
 </body>
 </html>
