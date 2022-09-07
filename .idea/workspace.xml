@@ -2,40 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="121a832a-bc97-47d1-a770-b0c415fd7278" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RyanMatte.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RyanMatte.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Custom Size – 1.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Ottawa_panorama.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/SQLite-db.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Threat-dev-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Threat-dev-search.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Threat-dev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/android-dev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/android_app_development.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/code-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dev-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ryanmatte.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/snowballgame.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/unity-dev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/unity_game_development.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/we-dev-index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/web-dev.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/8aae3a73a9a43ee6b04dfd986fe9d136/andrew.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d52e32f3a96a64786814ae9b5279fbe5/james.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abbey/abbey.html" beforeDir="false" afterPath="$PROJECT_DIR$/937615f88364f88a83ad266a5771d7fd/abbey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arlene/arlene.html" beforeDir="false" afterPath="$PROJECT_DIR$/e47b7de8afce22734da82449bc63701b/arlene.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drake/drake.html" beforeDir="false" afterPath="$PROJECT_DIR$/b150f254e79816bcde37b04180539289/drake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dylan/dylan.html" beforeDir="false" afterPath="$PROJECT_DIR$/7acea768faa38ac5ca6798c85785a5a8/dylan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fernando/fernando.html" beforeDir="false" afterPath="$PROJECT_DIR$/0bc24d6453cd7013f80f2a3a700ac703/fernando.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hernan/hernan.html" beforeDir="false" afterPath="$PROJECT_DIR$/62b460edf2c607646b83b5d4a5e16fc8/hernan.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resume.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kyle/kyle.html" beforeDir="false" afterPath="$PROJECT_DIR$/e8b579fe36f15209c6f167396a46b04e/kyle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ryan/ryan.html" beforeDir="false" afterPath="$PROJECT_DIR$/131b98dac8609f781484f08c22a8abaa/ryan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sharon/sharon.html" beforeDir="false" afterPath="$PROJECT_DIR$/b3e36c548cb8ee25971ae534ed15a6de/sharon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyler/tyler.html" beforeDir="false" afterPath="$PROJECT_DIR$/24dbc2b917472b089a5052b23f11f30f/tyler.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +42,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -62,11 +56,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662146265780</updated>
-      <workItem from="1662146267494" duration="319000" />
+      <workItem from="1662146267494" duration="3444000" />
+      <workItem from="1662498456364" duration="1454000" />
+      <workItem from="1662502289689" duration="4778000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

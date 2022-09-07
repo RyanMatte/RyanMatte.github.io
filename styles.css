@@ -4,8 +4,8 @@ div.overlay {
     height: 100%;
     top: 0;
     left: 0;
-    background: #000;
-    opacity: 0.2;
-    filter: blur(4px); /* required for opacity to work in IE */
+    opacity: 0.5;
+    filter: blur(2px); /* required for opacity to work in IE */
+    background-size: cover;
+    background-image: url("images/background.jpg");
 }
-
