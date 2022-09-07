@@ -6,18 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>Fernando</title>
 </head>
 <body>
-<section class="vh-100" style="background-color: #eee;">
-    <div class="container py-5 h-100">
+<section class="vh-1000" style="background-color: #eee;">
+    <div class="container py-5 h-150">
         <div class="row d-flex justify-content-center align-items-center h-100">
-            <div class="col-md-12 col-xl-7">
+            <div class="col-md-12 col-xl-10">
 
                 <div class="card" style="border-radius: 15px;">
                     <div class="card-body text-center">
@@ -31,7 +30,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p class="mb-0">Address</p>
+                                        <h5 class="mb-0">Address</h5>
                                     </div>
                                     <div class="col-sm-9">
                                         <p class="text-muted mb-0" id="address"></p>
@@ -40,7 +39,7 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p class="mb-0">Postal Code</p>
+                                        <h5 class="mb-0">Postal Code</h5>
                                     </div>
                                     <div class="col-sm-9">
                                         <p class="text-muted mb-0"id="postal"></p>
@@ -49,7 +48,7 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p class="mb-0">City</p>
+                                        <h5 class="mb-0">City</h5>
                                     </div>
                                     <div class="col-sm-9">
                                         <p class="text-muted mb-0" id="city"></p>
@@ -58,7 +57,7 @@
                                 <hr>
                                 <div class="row">
                                     <div class="col-sm-3">
-                                        <p class="mb-0">State/Province</p>
+                                        <h5 class="mb-0">State/Province</h5>
                                     </div>
                                     <div class="col-sm-9">
                                         <p class="text-muted mb-0" id="state"></p>
@@ -67,12 +66,134 @@
                                 <hr>
                             </div>
                         </div>
+                        <h3 class="mb-3">Here are the interests they listed</h3>
+                        <div class="col-lg-12">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Shirt Size</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="shirt"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Shoe Size</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="shoe"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Favorite Hobbies</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="hobby"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Favorite Anime</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="anime"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Favorite TV Show/Movies</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="show"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Favorite Musical Artists</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="music"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">What do they want to get into</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="into"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Best Ever Christmas Gift</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="gift"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Gifts they don't want</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="unwanted"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Things they collect</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="collect"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Large or Small Gifts</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="size"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Best Snacks</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="snacks"></p>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <h5 class="mb-0">Extra Comments</h5>
+                                    </div>
+                                    <div class="col-sm-9">
+                                        <p class="text-muted mb-0" id="extra"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+</body>
 <script>
     json = {
         "Timestamp": "8/29/2022 15:47:57",
@@ -97,12 +218,26 @@
         "What are some of your favourite snacks" : "Sour candy, milk chocolate, root beer, oreo cookies, kettle cooked chips",
         "Is there anything else you want to indicate to your Secret Santa (please do not include any specific gift ideas, just any general interests that could have been missed by the questionnaire)": "I have no preference on the number of gifts, I just had to select an option. As for the clothing size if you're going for women's, I'd prefer a M top and probably M bottom, but for men's an S top"
     };
-    console.log(json.Name);
     document.getElementById("name").innerHTML = 'You matched with... ' + json.Name + '!';
     document.getElementById("address").innerHTML = json["Home Address"];
     document.getElementById("postal").innerHTML = json["Postal Code"];
     document.getElementById("city").innerHTML = json["City"];
     document.getElementById("state").innerHTML = json["State"];
+    document.getElementById("shirt").innerHTML = json["Shirt Size"];
+    document.getElementById("shoe").innerHTML = json["What is your shoe size?"];
+    document.getElementById("hobby").innerHTML = json["List off some of your hobbies or some interests you have"];
+    document.getElementById("anime").innerHTML = json["What are some of your favourite anime"];
+    document.getElementById("show").innerHTML = json["What is your favourite TV shows"];
+    document.getElementById("music").innerHTML = json["Who are your favourite musical artists"];
+    document.getElementById("hobby").innerHTML = json["What is something you really want to get into (hobby, music, etc.) but you've never had the chance?"];
+    document.getElementById("gift").innerHTML = json["What is one of the best Christmas gifts you've received?"];
+    document.getElementById("unwanted").innerHTML = json["What are some things that you have enough of or don't want anymore of"];
+    document.getElementById("collect").innerHTML = json["Is there anything you collect or would want to add to a collection?"];
+    document.getElementById("size").innerHTML = json["Would you rather get 1 large gift or a bunch of smaller gifts?"];
+    document.getElementById("snacks").innerHTML = json["What are some of your favourite snacks"];
+    document.getElementById("extra").innerHTML = json["Is there anything else you want to indicate to your Secret Santa (please do not include any specific gift ideas, just any general interests that could have been missed by the questionnaire)"];
+
+
 </script>
 </body>
 </html>
